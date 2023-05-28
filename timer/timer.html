@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timer</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        #timer {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Timer</h1>
+    <div id="timer">00:00:00</div>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+
+    <script>
+        var timerElement = document.getElementById('timer');
+        var startButton = document.getElementById('start');
+        var stopButton = document.getElementById('stop');
+        var resetButton = document.getElementById('reset');
+
+        var timer;
+        var seconds = 0;
+        var minutes = 0;
+        var hours = 0;
+
+        function startTimer() {
+            timer = setInterval(updateTimer, 1000);
+            startButton.disabled = true;
+            stopButton.disabled = false;
+            resetButton.disabled = false;
+        }
+
+        function stopTimer() {
+            clearInterval(timer);
+            startButton.disabled = false;
+            stopButton.disabled = true;
+        }
+
+        function resetTimer() {
+            clearInterval(timer);
+            seconds = 0;
+            minutes = 0;
+            hours = 0;
+            timerElement.innerHTML = '00:00:00';
+            startButton.disabled = false;
+            stopButton.disabled = true;
+            resetButton.disabled = true;
+        }
+
+        function updateTimer() {
+            seconds++;
+
+            if (seconds === 60) {
+                seconds = 0;
+                minutes++;
+
+                if (minutes === 60) {
+                    minutes = 0;
+                    hours++;
+                }
+            }
+
+            var timeString = (hours ? (hours > 9 ? hours : '0' + hours) : '00') + ':' +
+                (minutes ? (minutes > 9 ? minutes : '0' + minutes) : '00') + ':' +
+                (seconds > 9 ? seconds : '0' + seconds);
+
+            timerElement.innerHTML = timeString;
+        }
+
+        startButton.addEventListener('click', startTimer);
+        stopButton.addEventListener('click', stopTimer);
+        resetButton.addEventListener('click', resetTimer);
+    </script>
+</body>
+</html>
