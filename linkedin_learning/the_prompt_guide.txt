@@ -1,0 +1,227 @@
+Video 1
+
+Prompt 1:
+
+You are a highly experienced writer who writes concise and readable text without stop words, filler words or jargon.  I want you to summarise the following text, highlighting the most important concepts. Deliver this as a short paragraph of 100 words. Then list the most improtants points as a bullet-point list. Finally, follow it with a one sentence summary. The text I want you to summarise is "[TEXT]"
+
+[TEXT] = chapter of a book
+
+Prompt 2:
+
+You are a highly experienced writer who writes concise and readable text without stop words, filler words or jargon.  I want you to give summary of the book "[BOOK TITLE]" by [AUTHOR NAME], highlighting the most important concepts. Deliver this as a list of no more than 5 bullet points and follow it with a one-sentence summary.
+
+[BOOK TITLE] = "Iconic Advantage"
+[AUTHOR NAME] = "Soon Yu and Dave Birss"
+
+Prompt 3:
+
+You are a highly experienced writer who writes concise and readable text without stop words, filler words or jargon.  I want you to give me a summary of current academic thinking around the field of [TOPIC], highlighting the most important concepts. Deliver this as a list of bullet points and follow it with a one-sentence summary.
+
+[TOPIC] = "neuroscience of creativity"
+
+
+Video 2
+
+Prompt 1:
+
+You are an expert in [TOPIC]. Please list as many different perspectives as there are on the topic. Think about it from the point of view of lots of different audiences who have an interest in the topic. Write your response as a bullet-pointed list.
+
+[TOPIC] = "artificial intelligence"
+
+Prompt 2:
+
+Can you also include the educational, religious and economic perspectives?
+
+Prompt 3:
+
+Please list the different people who have an interest in [TOPIC] along with a summary of their perspectives and an understanding of their motivations. Write your response as a table with columns "Audience", "Perspective" and "Motivation".
+
+[TOPIC] = cheese
+
+Prompt 4:
+
+Can you please repeat that with 12 audiences?
+
+
+Video 3
+
+Prompt 1:
+
+Imagine you are a [SUBJECT] expert with 30 years of experience and lots of awards for excellence. Please give your best advice on [TOPIC], drawing on research and best practice. Write your advice as an article using plain English adn subheads to make it more readable. 
+
+[SUBJECT] = business consultancy
+[TOPIC] = entering a new market
+
+Prompt 2:
+
+Can you tell me how I would go about Developing a Unique Value Proposition?
+
+Prompt 3:
+
+Imagine you are [EXPERT NAME]. Please give your best advice on [TOPIC], drawing from your writings, interviews and biographical informaiton. Write your advice as an article from your own point of view using plain English adn subheads to make it more readable. 
+
+[EXPERT NAME] = "Leonardo Da Vinci"
+[TOPIC] = "bridge building"
+
+Prompt 4:
+
+Let's explore the topic further with analogies.
+
+Prompt 5:
+
+Let's explore this further with examples.
+
+
+Video 4
+
+Prompt 1:
+
+You are an expert user experience designer with expertise in analysing audiences. Please create a list of possible audiences for [PRODUCT]. Tell me their profession, age and reason for needing the product. Present your response in a table with the columns "Profession", "Age" and "Needs".
+
+[PRODUCT] = "ipad"
+
+Prompt 2:
+
+Try again creating a list of 10 different audiences.
+
+Prompt 3:
+
+Can you also add parents with young children?
+
+Prompt 4:
+
+You are an expert user experience designer. You are highly experienced at user research and finding valuable human insights. Write me a user persona for [PERSON] who [SITUATION]. Include a short biography, their goals, their needs and wants, their pain points, their motivations and who influences them most. Also provide a score from 1 to 10 for the following categories: tech knowledge, ambition and happiencess.
+
+[PERSON] = "parents with young children"
+[SITUATION] = "have needs for devices for education activies"	
+
+
+Video 5
+
+Prompt 1:
+
+You are a first-class strategic consultant who is an expert in using strategic models to help clarify thinking and reach effective solutions. Please suggest the best strategic models for [TASK]. Present your response as a list, stating the benefit of the model and a summary of how to use it.
+
+[TASK] = "a startup that needs to define its market"
+
+Prompt 2:
+
+Can you please give me step by step instructions on how to fill in a Value Proposition Canvas?
+
+Prompt 3:
+
+Can you give me an example of a [STRATEGIC MODEL] for a [COMPANY TYPE] that is [DETAILS OF SITUATION]?
+
+[Can you give me an example of a SWOT analysis for a technology startup that is looking to offer instant loans through a mobile app. After performing a quick credit check, the app will tell you how much you can borrow and how much you will need to repay every month. If you accept the deal, the money will be immediately transferred to your bank account.]
+
+
+Video 6
+
+Prompt 1:
+
+You are an expert researcher with the ability to find information that other people don't notice. I want you to supply me with 10 search engine queries I should use to find mindblowing facts and statistics about [TOPIC]. Make the search terms specific and powerful to help us get to the information we need faster. Present your response in a table, using the columns "Search Term" and "Information we're looking for".
+
+[TOPIC] = "the psychology of happiness"
+
+Prompt 2:
+
+You are an expert researcher with the ability to find information that other people don't notice. I want you to suggest five studies that could be done to discover interesting facts about [TOPIC]. Come up with research ideas that include quantitive and qualitative data, case studies, correlational studies, longitudinal studies, experimental studies and clinical trial studies. Consider conducting laboratory experiments, comparative analyses, observational studies, surveys, and interviews. Come up with titles for each study, a hypothesis and a methodology.
+
+[TOPIC] = "the effect of happiness on work"
+
+Prompt 3:
+
+Can you please expand on the methodology forThe Effect of Positive Reinforcement on Employee Happiness and Productivity.
+
+
+Video 7
+
+Prompt 1:
+
+You are an expert linguist who is known for their ability to dissect the styles of writing. Please analyse the following copy for tone-of-voice. Give a score from 1 to 5 for each of the following four dimensions, where 1 represents the extreme of the first characteristic, 5 represents the extreme of the second characteristic and the numbers in between represent where the style lies between those extremes: "Funny vs. serious", "Formal vs. casual", "Respectful vs. 
+irreverent" and "Enthusiastic vs. matter-of-fact". Summarise the tone of the copy using each of these four dimensions in turn. Then comment on whether the copy is written in first, second or third person, whether it uses examples, whether it uses quotes and whether it uses facts. Tell us who you think this copy has been written for. Finally, write a short paragraph with your analysis of the copy. Do not comment on the content of the writing, we are only interested in the style. The copy I want you to analyse is: "[TEXT]"
+
+[TEXT] = your copy
+
+Prompt 2:
+
+You are an expert copywriter who is known for their ability to write fluently in different styles. Please analyse the following copy for tone-of-voice, taking into account the four dimensions of: "Funny vs. serious", "Formal vs. casual", "Respectful vs. irreverent" and "Enthusiastic vs. matter-of-fact". Consider the use of quotes, facts, statistics, jargon and stories and what perspective it was written from. Then write a prompt for ChatGPT that can be used to 
+apply the same tone-of-voice characteristics to a different topic. The copy to analyse is: "[TEXT]"
+
+[TEXT] = your copy
+
+Prompt 3:
+
+You are an expert copywriter who is known for their ability to write fluently in different styles. Please analyse the following copy for tone-of-voice, taking into account the four dimensions of: "Funny vs. serious", "Formal vs. casual", "Respectful vs. irreverent" and "Enthusiastic vs. matter-of-fact". Consider the use of quotes, facts, statistics, jargon and stories and what perspective it was written from. Then write a prompt for ChatGPT that can be used to 
+apply the same tone-of-voice characteristics to a different topic. Do you mention the content of the prompt. Only focus on the tone of voice. The copy to analyse is: "[TEXT]"
+
+[TEXT] = your copy
+
+Prompt 4:
+
+Write a persuasive and enthusiastic copy promoting a kitten rental company that hires baby cats by the week that emphasizes the expertise and impact of the provider, using statistics and quotes to support the claim and provide credibility. The copy should have a formal, respectful, casual and enthusiastics tone.
+
+
+Video 8
+
+Prompt 1:
+
+You are an expert copywriter with more than 20 years of experience in writing high-performing copy. I want you to write me 10 headlines for [SUBJECT]. Present your response as a list of bullet-points. Use the following as inspiration: [EXAMPLES].
+
+[SUBJECT] = "articles on the intersection of creativity and technology"
+[EXAMPLES] = search of the web of examples of successful headlines
+
+Prompt 2:
+
+Give me an outline for the content that would be in an article titled "Art Meets Tech: The Most Mind-Blowing Examples of Tech-Infused Art"
+
+Prompt 3:
+
+You are an expert copywriter with more than 20 years of experience in writing high-performing copy. I want you to come up with 5 compelling and persuasive article ideas for [SUBJECT]. [MORE INFORMATION]. Present your response as headlines followed by paragraphs describing the content of the article and why you think it would be interesting.
+
+[SUBJECT] = "creative thinking"
+[MORE INFORMATION] = "Brainstorming is the most widely used way of getting ideas out of a workforce. However Brainstorm have been proven to not work effectively. There are better ways of getting fresh thinking from your teams."
+
+
+Video 8
+
+Prompt 1:
+
+You are an expert copywriter known for your ability to write persuasive and easy-to-read text. Please list the most important points to make when writing an article about [SUBJECT]. [MORE INFORMATION]. Please start by asking 
+questions to gather the information you need. Do not offer a response until you have the answers. Present your response as a table where the first column contains the copy point and the second column states whether it's 
+primary or secondary information.
+
+[SUBJECT] = "compassion in the workplace"
+[MORE INFORMATION] = "Workplaces don't tend to be very compassionate places and the article should talk about the power of caring from a business point of view"
+
+Prompt 2:
+
+Please can you write me another 6 points to add to this list.
+
+Prompt 3:
+
+You are an expert copywriter known for your ability to write persuasive and easy-to-read text. Please use the information above to write a suggested flow for the article. Write your copy flow as bullet points.
+
+Prompt 4:
+
+Can you please expand on Challenges of Creating a Compassionate Workplace. Write me 250 words of copy and give me the bullet points of the most important elements
+
+
+Video 8
+
+Prompt 1:
+
+You are an expert copywriter with more than 20 years of experience in writing high-performing copy. I want you to rewrite the following copy to make it better. Rewrite it with a [TONE OF VOICE] tone. Remove filler words and stop words. 
+Remove jargon and corporate language. Correct misspelled words and bad grammar. Vary the length of the sentences to make the text more interesting. Make sure there are subheads throughout. Don't use bullet points. Write it as easy-to-read paragraphs. The copy I want you to improve is: "[TEXT]"
+
+[TONE OF VOICE] = "conversational, witty and informative"
+[TEXT] = your copy
+
+Prompt 2:
+
+You are an expert copywriter with more than 20 years of experience in writing high-performing copy. I want you to analyse the following copy and suggest some improvements I could make to it. Consider the pace of the writing, the 
+content, the structure, the vocabulary, the length, the use of quotes, the use of testimonials, stories and other stylistic elements. Present your feedback in a table with the following columns: "suggested improvement", "example of how to implement" and "why this is valuable". The copy I want you to analyse is: "[TEXT]"
+
+[TEXT] = your copy
+
+
