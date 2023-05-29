@@ -1,3 +1,5 @@
+LinkedIn Learning - Pair Programming with AI
+
 Build a webpage showing a timer. There should be a start button, a stop button, and a reset button. Use HTML, CSS, and JavaScript.
 
 Build a website using HTML, CSS, and JavaScript that provides a typing speed tester. The website must include text for testing, a timer, an input field, a pause button, a reset button, and a character count for the typing field. The timer should start when the user starts typing and stop either when the user click the pause button, the reset button, or when the user has completed typing out the sample text. Provide the code for each file. No explanations. 
